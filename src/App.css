@@ -1,0 +1,137 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #252830;
+  color: #cfd2da;
+}
+
+.data-table {
+  min-width: 50%;
+  width: auto;
+}
+
+.special {
+  color: #1997c6;
+  cursor: pointer;
+}
+
+.edit,
+.delete,
+.view {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.data-table i {
+  font-size: 20px;
+}
+
+.edit {
+  color: #1997c6;
+}
+
+.delete {
+  color: #e64759;
+}
+
+table th,
+table td {
+  font-size: 0.9rem;
+}
+
+/*----------------------------------------------------------
+      Modal Design
+-----------------------------------------------------------*/
+.modal-style {
+  background: #24272e;
+}
+
+/*----------------------------------------------------------
+      Video Player Design
+-----------------------------------------------------------*/
+.video-player-content {
+  position: relative;
+}
+
+.vidoe-cortrols {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+.vidoe-cortrols i {
+  cursor: pointer;
+}
+
+.live-icon {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: red;
+}
+
+.vidoe-cortrols::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.vidoe-cortrols p {
+  width: 170px;
+}
+/* 
+.control-left {
+  display: flex;
+  justify-items: center;
+} */
+
+.mdl-slider__background-flex {
+  height: 4px;
+}
+
+.mdl-slider__background-lower,
+.mdl-slider.is-upgraded:active::-moz-range-thumb,
+.mdl-slider.is-upgraded::-moz-range-thumb {
+  background: white;
+}
+
+/*----------------------------------------------------------
+      Input type range design
+-----------------------------------------------------------*/
+.input-range-wrapper {
+  position: relative;
+  width: 70px;
+}
+
+.input-range {
+  margin-top: 20px;
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  background: #fff;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.input-range::before {
+  position: absolute;
+  content: "";
+  display: block;
+  background: #fff;
+  height: 3px;
+  width: 30px;
+  top: 5px;
+  left: 0px;
+}
+
+.input-range::after {
+  position: absolute;
+  content: "";
+  display: block;
+  background: rgb(124, 124, 124);
+  height: 3px;
+  width: 30px;
+  top: 5px;
+  right: -2px;
+}
