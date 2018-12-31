@@ -74,6 +74,7 @@ class VideoModal extends Component {
 export default VideoModal;
 
 {
-   /* <i class="material-icons">volume_off</i>
-     <i class="material-icons">volume_down</i> */
+   /* <i class="material-icons">play_arrow</i>
+      <i class="material-icons">volume_off</i>
+      <i class="material-icons">volume_down</i> */
 }
