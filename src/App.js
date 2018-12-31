@@ -3,10 +3,9 @@ import React, { Component } from 'react';
 //component import
 import Table from './components/Table';
 import MobileMenu from './components/navbar/MobileMenu';
-import InputRange from './components/InputRange';
 
 //style add
-import './App.css';
+import './styles/App.css';
 import VideoPlayer from './components/videoplayer/VideoPlayer';
 
 class App extends Component {
@@ -17,7 +16,6 @@ class App extends Component {
           <MobileMenu />
           <Table />
           <VideoPlayer />
-          <InputRange />
         </div>
       </div>
     );
